@@ -80,7 +80,6 @@ In the configuration file, it is necessary to define:
 - The number of switches and the number of hosts
 - The number of different slices
 - The number of links and for each of them define the bandwidth, the nodes it connects and the slice it belongs to
-- (Optional) You can define names to the switches that override the default ones
 
 ## How to run
 
@@ -143,5 +142,5 @@ Below is an example of a network using STP. Links are not assignable to a given 
 Within the configuration file ‘configs/garr.ini’ is the garr network already divided into the three slices “operational,” “TeRABIT,” and “ICSC.” The network can be used with the flag '--stp'
 
 <p align="center">
-    <img src="imgs/garr.png" alt="Garr Network">
+    <img src="imgs/garr.jpg" alt="Garr Network">
 </p>  
