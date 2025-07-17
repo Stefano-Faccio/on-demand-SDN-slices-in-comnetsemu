@@ -139,7 +139,7 @@ Below is an example of a network using STP. Links are not assignable to a given 
 </p>    
 
 ## Bonus: The GARR network
-Within the configuration file ‘configs/garr.ini’ is the garr network already divided into the three slices “operational,” “TeRABIT,” and “ICSC.” The network can be used with the flag '--stp'
+Within the configuration file ‘configs/garr.ini’ is the garr network already divided into the three slices “operational”, “TeRABIT” and “ICSC”. The network can be used with the flag '--stp'
 
 <p align="center">
     <img src="imgs/garr.jpg" alt="Garr Network">
