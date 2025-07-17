@@ -137,5 +137,11 @@ To support more complex networks, you can use the ‘--stp’ flag that enables 
 Below is an example of a network using STP. Links are not assignable to a given slice and some will be disabled by the protocol action.
 <p align="center">
     <img src="imgs/small_col.png" alt="STP Network">
-    <img src="imgs/small-pingall.png" alt="STP PingAll">
 </p>    
+
+## Bonus: The GARR network
+Within the configuration file ‘configs/garr.ini’ is the garr network already divided into the three slices “operational,” “TeRABIT,” and “ICSC.” The network can be used with the flag '--stp'
+
+<p align="center">
+    <img src="imgs/garr.png" alt="Garr Network">
+</p>  
